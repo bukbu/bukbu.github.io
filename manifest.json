@@ -1,0 +1,10 @@
+{
+  "name": "북부회중",
+  "short_name": "북부회중",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#18324a",
+  "theme_color": "#18324a",
+  "lang": "ko"
+}
