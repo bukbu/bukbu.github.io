@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -7,27 +8,49 @@
 
   <title>북부회중</title>
 
-  <!-- 아이폰 홈 화면 앱 설정 -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style"
         content="default">
   <meta name="apple-mobile-web-app-title" content="북부회중">
 
-  <!-- 웹앱 설정 -->
   <meta name="theme-color" content="#18324a">
+
   <link rel="manifest" href="/manifest.json">
 
-  <script>
-    window.location.replace(
-      "/bb/개인봉사.html"
-    );
-  </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: sans-serif;
+      text-align: center;
+      background: #f3f5f7;
+    }
+
+    h2 {
+      color: #18324a;
+      margin-bottom: 35px;
+    }
+
+    a {
+      display: block;
+      max-width: 320px;
+      margin: 0 auto;
+      padding: 18px;
+      border-radius: 10px;
+      background: #18324a;
+      color: white;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
-  <p>
-    <a href="/bb/개인봉사.html">
-      개인봉사 페이지 열기
-    </a>
-  </p>
+  <h2>북부회중</h2>
+
+  <a href="/bb/개인봉사.html">
+    개인봉사 페이지 열기
+  </a>
 </body>
 </html>
